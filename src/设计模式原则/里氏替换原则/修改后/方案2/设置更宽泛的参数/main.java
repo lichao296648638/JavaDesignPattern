@@ -1,10 +1,13 @@
 package 设计模式原则.里氏替换原则.修改后.方案2.设置更宽泛的参数;
 
+
+
 /**
  * @author 李超
  * @date 2023-12-28
  *
  *经过修改，程序正确运行，当子类替换父类行为发生时，不再不符合预期值
+ * 但此类同时存在一定的问题，那就是需要进行类型判断！
  */
 public class main {
     public static void main(String[] args) {
@@ -23,11 +26,11 @@ public class main {
         if (rectangle.getClass() == Rectangle.class) {
             rectangle.setHeight(10);
             rectangle.setWidth(50);
-            area = rectangle.calculateArea();
+            area = rectangle.getArea();
         } else if(rectangle.getClass() == Square.class){
             Square square = (Square) rectangle;
             square.setSide(30);
-            area = square.calculateSquareArea();
+            area = square.getArea();
         }
         System.out.println("矩形面积为：" + area);
         return area;
