@@ -1,4 +1,4 @@
-package 设计模式原则.里氏替换原则.修改后.为什么不能比父类宽泛的异常;
+package 设计模式原则.里氏替换原则.修改后.为什么不能比父类抛出更宽泛的异常;
 
 import java.io.IOException;
 
