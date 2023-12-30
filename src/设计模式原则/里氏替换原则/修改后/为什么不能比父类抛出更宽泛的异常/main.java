@@ -1,8 +1,8 @@
 package 设计模式原则.里氏替换原则.修改后.为什么不能比父类抛出更宽泛的异常;
 
 /**
- * @author 李超
- * @date 2023-12-28
+ * @author Ashes
+ * @date 2023/12/28
  */
 public class main {
     public static void main(String[] args) {

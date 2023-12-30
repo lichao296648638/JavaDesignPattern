@@ -3,11 +3,12 @@ package 设计模式原则.里氏替换原则.修改后.为什么不能比父类
 import java.io.IOException;
 
 /**
- * @author 李超
- * @date 2023-12-28
- *
- * @类介绍
+ * Description:
  * 这是一个长方形类
+ *
+ * @author Ashes
+ * @date 2023/12/28
+ *
  */
 public class Rectangle {
     int width;

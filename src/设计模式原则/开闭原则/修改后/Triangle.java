@@ -1,8 +1,11 @@
 package 设计模式原则.开闭原则.修改后;
 /**
- * @author 李超
- * @date 2023-12-26
+ * Description:
  * 修改后的三角形类，如果需要绘画功能，实现Shape这个接口即可
+ *
+ * @author Ashes
+ * @date 2023/12/26
+ *
  */
 public class Triangle implements Shape{
 

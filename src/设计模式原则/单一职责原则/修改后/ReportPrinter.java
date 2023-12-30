@@ -1,10 +1,11 @@
 package 设计模式原则.单一职责原则.修改后;
 /**
- * @author 李超
- * @date 2023-12-26
- *
- * @类介绍：
+ * Description：
  * 这是一个打印报告的类
+ * @author Ashes
+ * @date 2023/12/26
+ *
+
  */
 public class ReportPrinter {
     /**

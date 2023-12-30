@@ -1,11 +1,12 @@
 package 设计模式原则.开闭原则.修改后;
 
 /**
- * @author 李超
- * @date 2013-12-26
- *
- * @类介绍
+ * Description:
  * 这是一个检测不同图形就能绘制对应图形的类
+ *
+ * @author Ashes
+ * @date 2013/12/26
+ *
  *
  */
 public class main {

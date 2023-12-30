@@ -1,11 +1,12 @@
 package 设计模式原则.里氏替换原则.修改后.为什么不能比父类抛出更宽泛的异常;
 
 /**
- * @author 李超
- * @date 2023-12-28
- *
- * @类介绍
+ * Description:
  * 这是一个正方形类，复写了父类长方形中的设置宽高，和计算面积的办法
+ *
+ * @author Ashes
+ * @date 2023/12/28
+ *
  */
 public class Square extends Rectangle {
 

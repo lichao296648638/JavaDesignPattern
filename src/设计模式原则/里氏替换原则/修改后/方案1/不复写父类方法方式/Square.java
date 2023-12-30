@@ -1,11 +1,12 @@
 package 设计模式原则.里氏替换原则.修改后.方案1.不复写父类方法方式;
 
 /**
- * @author 李超
- * @date 2023-12-28
- *
- * @类介绍
+ * Description:
  * 这是一个正方形类，不复写父类的方法，而是加入别的方法
+ *
+ * @author Ashes
+ * @date 2023/12/28
+ *
  */
 public class Square extends Rectangle {
 

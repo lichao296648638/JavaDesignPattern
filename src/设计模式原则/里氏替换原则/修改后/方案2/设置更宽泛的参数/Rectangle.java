@@ -1,10 +1,11 @@
 package 设计模式原则.里氏替换原则.修改后.方案2.设置更宽泛的参数;
 /**
- * @author 李超
- * @date 2023-12-28
- *
- * @类介绍
+ * Description:
  * 这是一个长方形类
+ *
+ * @author Ashes
+ * @date 2023/12/28
+ *
  */
 public class Rectangle {
     private int width;

@@ -1,11 +1,13 @@
 package 设计模式原则.里氏替换原则.修改后.方案1.不复写父类方法方式;
 
 /**
- * @author 李超
- * @date 2023-12-28
- *
- *经过修改，程序正确运行，当子类替换父类行为发生时，不再不符合预期值
+ * Description:
+ * 经过修改，程序正确运行，当子类替换父类行为发生时，不再不符合预期值
  * 但此类同时存在一定的问题，那就是需要进行类型判断！
+ *
+ * @author Ashes
+ * @date 2023/12/28
+ *
  */
 public class main {
     public static void main(String[] args) {
