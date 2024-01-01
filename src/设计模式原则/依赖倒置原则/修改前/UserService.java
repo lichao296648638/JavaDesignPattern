@@ -27,7 +27,6 @@ package 设计模式原则.依赖倒置原则.修改前;
  *
  */
 public class UserService {
-
     DatabaseUserRepository databaseUserRepository;
 
     UserService(DatabaseUserRepository databaseUserRepository) {
@@ -37,7 +36,5 @@ public class UserService {
     public void createUser() {
         databaseUserRepository.saveName("测试用户");
     }
-
-
 
 }
